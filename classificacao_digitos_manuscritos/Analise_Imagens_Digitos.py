@@ -56,11 +56,11 @@ print(np.argmax(predicao[0]))
 
 # Visualizar a imagem
 # Mostramos a primeira imagem do conjunto de teste para verificar a previsão
-plt.imshow(x_teste[0], cmap=plt.cm.binary)
+plt.imshow(x_teste[0], cmap=plt.cm.Purples)
 plt.show()
 
 # Prever a segunda imagem de teste
 # Mostramos a segunda imagem do conjunto de teste para verificar a previsão
 print(np.argmax(predicao[1]))
-plt.imshow(x_teste[1], cmap=plt.cm.binary)
+plt.imshow(x_teste[1], cmap=plt.cm.Purples)
 plt.show()
